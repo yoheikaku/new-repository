@@ -1,0 +1,2058 @@
+@charset "UTF-8";
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+header {
+  height: 80px;
+  background-color: white;
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+}
+
+header .nomado {
+  color: black;
+  font-size: 13px;
+  padding-top: 30px;
+}
+
+header .contact {
+  background-color: #F08080;
+  margin-left: auto;
+  margin-right: 10%;
+  border-radius: 30px;
+  width: 29%;
+  margin-top: 6px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  opacity: 0.8;
+}
+
+header .contact:hover {
+  opacity: 1.0;
+}
+
+header .contact a {
+  position: absolute;
+  font-size: 15px;
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+  width: 100%;
+  text-align: center;
+  line-height: 49px;
+  height: 100%;
+}
+
+.isara-img {
+  width: 150px;
+  height: 55px;
+}
+
+.isara {
+  padding-left: 10%;
+  padding-top: 12px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.main-img {
+  background-image: url(../testImg/mainTest.jpg);
+  height: 460px;
+  background-size: cover;
+}
+
+.main-img .main-text {
+  text-align: center;
+  padding-top: 100px;
+}
+
+.main-img .main-text p {
+  font-size: 23px;
+}
+
+.main-img .main-text .main-text-two {
+  padding-top: 10px;
+}
+
+.main-img .logo-large {
+  text-align: center;
+  padding-top: 10px;
+}
+
+.main-img .logo-large img {
+  width: 300px;
+}
+
+.main-img .main-text-two {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.yellow-box {
+  background-color: #FFCC66;
+  height: 600px;
+}
+
+.yellow-box .yellow-box-textone {
+  padding-top: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.yellow-box .yellow-box-textone p {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.yellow-box .white-textboxone {
+  background-color: white;
+  height: 25px;
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.yellow-box .white-textboxone p {
+  font-size: 17px;
+  letter-spacing: 1px;
+  color: #CC0000;
+}
+
+.yellow-box .contact-two {
+  background-color: #F08080;
+  margin-left: auto;
+  margin-right: auto;
+  width: 900px;
+  height: 100px;
+  margin-top: 40px;
+  border-radius: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  opacity: 0.9;
+}
+
+.yellow-box .contact-two:hover {
+  opacity: 1.0;
+}
+
+.yellow-box .contact-two a {
+  position: absolute;
+  color: white;
+  font-size: 27px;
+  font-weight: bold;
+  text-decoration: none;
+  cursor: pointer;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  line-height: 100px;
+}
+
+.yellow-box .kikan {
+  padding-top: 70px;
+  text-align: center;
+}
+
+.yellow-box .kikan p {
+  color: white;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.yellow-box .kikan .kikantext-two {
+  padding-top: 35px;
+}
+
+.yellow-box .kikan .kikantext-three {
+  padding-top: 35px;
+}
+
+.yellow-box .linkbox {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.yellow-box .linkbox .twitter {
+  background-color: #00aced;
+  width: 80px;
+  height: 20px;
+  border-radius: 3px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.yellow-box .linkbox .twitter a {
+  color: white;
+  text-decoration: none;
+  font-size: 13px;
+}
+
+.yellow-box .linkbox .twitter .fa-twitter {
+  padding-right: 2px;
+}
+
+.yellow-box .linkbox .iine {
+  background-color: #0063dc;
+  width: 100px;
+  height: 20px;
+  border-radius: 3px;
+  margin-left: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.yellow-box .linkbox .iine a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 13px;
+}
+
+.yellow-box .linkbox .iine .fa-thumbs-up {
+  padding-right: 5px;
+}
+
+.yellow-box .linkbox .share {
+  background-color: #0063dc;
+  width: 60px;
+  height: 20px;
+  border-radius: 3px;
+  margin-left: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.yellow-box .linkbox .share a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 13px;
+}
+
+.introbottom-img {
+  background-image: url(../testImg/introbottom.jpg);
+  background-size: cover;
+  height: 700px;
+  width: 100%;
+}
+
+.introbottom-img .midasi-one {
+  text-align: center;
+  position: relative;
+  padding-top: 90px;
+}
+
+.introbottom-img .midasi-one h2 {
+  font-size: 30px;
+}
+
+.introbottom-img .midasi-one h2::before {
+  position: absolute;
+  /*before(after)を可視化するためのおまじない*/
+  content: "";
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  /*位置は左上を指定*/
+  top: 50px;
+  left: 200px;
+  /*50px × 50px の四角形を作成 */
+  width: 50px;
+  height: 50px;
+  /*topとleftの辺だけを可視化する*/
+  border-top: 4px solid #ebb94d;
+  border-left: 4px solid #ebb94d;
+}
+
+.introbottom-img .midasi-one h2::after {
+  position: absolute;
+  content: "";
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  /*位置は右下を指定*/
+  bottom: -20px;
+  right: 200px;
+  /*50px × 50pxの四角形を作成*/
+  width: 50px;
+  height: 50px;
+  /*bottomとrightのへんだけを可視化する*/
+  border-bottom: 4px solid #ebb94d;
+  border-right: 4px solid #ebb94d;
+}
+
+.introbottom-img .intro-text-one {
+  text-align: center;
+  padding-top: 70px;
+}
+
+.introbottom-img .intro-text-one p {
+  font-size: 22px;
+}
+
+.introbottom-img .intro-text-two {
+  text-align: center;
+  padding-top: 40px;
+}
+
+.introbottom-img .intro-text-two p {
+  font-size: 22px;
+}
+
+.introbottom-img .intro-text-three {
+  text-align: center;
+  padding-top: 40px;
+}
+
+.introbottom-img .intro-text-three p {
+  font-size: 22px;
+}
+
+.introbottom-img .intro-text-three p .strong-word {
+  font-weight: bold;
+  border-bottom: 11px solid #ebb94d;
+}
+
+.about-contents {
+  background-color: #FFF8DC;
+  height: 700px;
+}
+
+.about-contents .about-logo {
+  position: relative;
+}
+
+.about-contents .about-logo .about-test {
+  position: absolute;
+  background-color: #ebb94d;
+  width: 90px;
+  height: 90px;
+  top: -45px;
+  left: 47%;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.about-contents .about-logo .about-test p {
+  letter-spacing: 1px;
+  color: white;
+}
+
+.about-contents .midasi-two {
+  position: relative;
+  padding-top: 110px;
+  text-align: center;
+}
+
+.about-contents .midasi-two h2 {
+  font-size: 32px;
+}
+
+.about-contents .midasi-two h2::before {
+  position: absolute;
+  /*before(after)を可視化するためのおまじない*/
+  content: "";
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  /*位置は左上を指定*/
+  top: 60px;
+  left: 220px;
+  /*50px × 50px の四角形を作成 */
+  width: 50px;
+  height: 50px;
+  /*topとleftの辺だけを可視化する*/
+  border-top: 4px solid #ebb94d;
+  border-left: 4px solid #ebb94d;
+}
+
+.about-contents .midasi-two h2::after {
+  position: absolute;
+  content: "";
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  /*位置は右下を指定*/
+  bottom: -20px;
+  right: 200px;
+  /*50px × 50pxの四角形を作成*/
+  width: 50px;
+  height: 50px;
+  /*bottomとrightのへんだけを可視化する*/
+  border-bottom: 4px solid #ebb94d;
+  border-right: 4px solid #ebb94d;
+}
+
+.about-contents .about-text {
+  text-align: center;
+  padding-top: 80px;
+}
+
+.about-contents .about-text p {
+  font-weight: bold;
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+
+.about-contents .about-white-box {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  width: 80%;
+  height: 250px;
+  background-color: white;
+  border: 2px solid #ebb94d;
+  border-radius: 5px;
+}
+
+.about-contents .about-white-box .about-text-two {
+  text-align: center;
+  padding-top: 40px;
+}
+
+.about-contents .about-white-box .about-text-two p {
+  font-weight: bold;
+  letter-spacing: 2px;
+  font-size: 20px;
+}
+
+.about-contents .about-white-box .about-white-contents {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 30px;
+}
+
+.about-contents .about-white-box .about-white-contents .about-contents-img {
+  text-align: center;
+  padding-right: 25px;
+}
+
+.about-contents .about-white-box .about-white-contents .about-contents-img .dtail-text {
+  padding-top: 5px;
+}
+
+.about-contents .about-white-box .about-white-contents .about-contents-img .dtail-text p {
+  font-size: 12px;
+}
+
+.step-img {
+  background-image: url(../testImg/aboutsecondbg.jpg);
+  background-size: cover;
+  height: 450px;
+  width: 100%;
+}
+
+.step-img .step-midasi-one {
+  text-align: center;
+  padding-top: 60px;
+}
+
+.step-img .step-midasi-one h2 {
+  color: white;
+  letter-spacing: 2px;
+  font-size: 27px;
+}
+
+.step-img .step-midasi-two {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.step-img .step-midasi-two p {
+  color: white;
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+
+.step-img .step-midasi-three {
+  text-align: center;
+  padding-top: 15px;
+}
+
+.step-img .step-midasi-three p {
+  color: white;
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+
+.step-img .step-midasi-three p span {
+  color: #ebb94d;
+}
+
+.step-img .step-box-around {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 50px;
+}
+
+.step-img .step-box-around .step-whitebox {
+  background-color: white;
+  width: 380px;
+  height: 160px;
+  border-radius: 5px;
+  margin-right: 15px;
+}
+
+.step-img .step-box-around .step-whitebox .step-yellowbox {
+  background-color: #ebb94d;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  height: 25px;
+  border-radius: 5px;
+  margin-top: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.step-img .step-box-around .step-whitebox .step-yellowbox p {
+  color: white;
+  letter-spacing: 1px;
+}
+
+.step-img .step-box-around .step-whitebox .step-whitebox-text {
+  text-align: center;
+  padding-top: 25px;
+}
+
+.step-img .step-box-around .step-whitebox .step-whitebox-text p {
+  font-weight: bolder;
+  letter-spacing: 1px;
+  font-size: 13px;
+}
+
+.step-img .step-box-around .step-whitebox .step-whitebox-text-two {
+  text-align: center;
+  padding: 15px;
+}
+
+.step-img .step-box-around .step-whitebox .step-whitebox-text-two p {
+  font-weight: bolder;
+  letter-spacing: 1px;
+}
+
+.bule-box {
+  background-color: #016ea9;
+  height: 140px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.bule-box .bule-box-text {
+  text-align: center;
+}
+
+.bule-box .bule-box-text p {
+  color: white;
+  font-weight: bolder;
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+
+.bule-box .bule-box-text p span {
+  color: #ebb94d;
+}
+
+.isara-canlearn {
+  height: 500px;
+}
+
+.isara-canlearn .can-midasi {
+  text-align: center;
+  padding-top: 60px;
+}
+
+.isara-canlearn .can-midasi h2 {
+  letter-spacing: 1px;
+  font-size: 27px;
+}
+
+.isara-canlearn .can-midasi h2 span {
+  font-size: 15px;
+}
+
+.isara-canlearn .can-text {
+  text-align: center;
+  padding-top: 35px;
+}
+
+.isara-canlearn .can-text p {
+  letter-spacing: 1px;
+  font-size: 20px;
+}
+
+.isara-canlearn .can-contents-around {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 50px;
+}
+
+.isara-canlearn .can-contents-around .yellow-circle {
+  padding-right: 50px;
+}
+
+.isara-canlearn .can-contents-around .yellow-circle img {
+  width: 180px;
+  height: 180px;
+}
+
+.isara-canlearn .can-lasttext {
+  text-align: center;
+  padding-top: 40px;
+}
+
+.isara-canlearn .can-lasttext p {
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.merit {
+  background-color: #FFF8DC;
+  height: 1020px;
+  width: 100%;
+  position: relative;
+}
+
+.merit .merit-midasi {
+  text-align: center;
+  padding-top: 60px;
+}
+
+.merit .merit-midasi::before {
+  position: absolute;
+  /*before(after)を可視化するためのおまじない*/
+  content: "";
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  /*位置は左上を指定*/
+  top: 40px;
+  left: 250px;
+  /*50px × 50px の四角形を作成 */
+  width: 50px;
+  height: 50px;
+  /*topとleftの辺だけを可視化する*/
+  border-top: 4px solid #ebb94d;
+  border-left: 4px solid #ebb94d;
+}
+
+.merit .merit-midasi h2 {
+  font-size: 27px;
+  letter-spacing: 1px;
+}
+
+.merit .merit-midasi p {
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+
+.merit .merit-midasi::after {
+  position: absolute;
+  content: "";
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  /*位置は右下を指定*/
+  top: 100px;
+  right: 280px;
+  /*50px × 50pxの四角形を作成*/
+  width: 50px;
+  height: 50px;
+  /*bottomとrightのへんだけを可視化する*/
+  border-bottom: 4px solid #ebb94d;
+  border-right: 4px solid #ebb94d;
+}
+
+.merit .merit-pictures-around {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 60px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  display: table;
+}
+
+.merit .merit-pictures-around .padding {
+  padding-right: 30px;
+}
+
+.merit .merit-pictures-around .merit-pictureandtext {
+  width: 33%;
+  display: table-cell;
+  vertical-align: top;
+}
+
+.merit .merit-pictures-around .merit-pictureandtext img {
+  width: 100%;
+  height: 180px;
+}
+
+.merit .merit-pictures-around .merit-pictureandtext .de-midasi {
+  padding-top: 10px;
+}
+
+.merit .merit-pictures-around .merit-pictureandtext .de-midasi h3 {
+  color: #ebb94d;
+}
+
+.merit .merit-pictures-around .merit-pictureandtext .de-text {
+  padding-top: 15px;
+}
+
+.merit .merit-whitebox {
+  background-color: white;
+  width: 80%;
+  height: 250px;
+  border: 2px solid #ebb94d;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  border-radius: 5px;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+.merit .merit-whitebox .merit-whitebox-midasi-one {
+  padding-top: 35px;
+}
+
+.merit .merit-whitebox .merit-whitebox-midasi-one h2 {
+  color: #ebb94d;
+  font-size: 28px;
+}
+
+.merit .merit-whitebox .merit-whitebox-midasi-two {
+  padding-top: 15px;
+}
+
+.merit .merit-whitebox .merit-whitebox-text {
+  padding-top: 15px;
+}
+
+.merit .merit-whitebox .merit-whitebox-text p {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.merit .merit-last-text {
+  width: 72%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.member-around {
+  background-image: url(../testImg/teacherbg.jpg);
+  background-size: cover;
+  height: 1410px;
+  width: 100%;
+}
+
+.member-around .member-midasi {
+  text-align: center;
+  padding-top: 120px;
+}
+
+.member-around .member-midasi h3 {
+  color: white;
+  font-size: 28px;
+  letter-spacing: 1px;
+}
+
+.member-around .member-midasi h3 .fa-id-card {
+  letter-spacing: 5px;
+}
+
+.member-around .member-midasi-two {
+  text-align: center;
+  padding-top: 30px;
+}
+
+.member-around .member-midasi-two h4 {
+  color: white;
+  letter-spacing: 2px;
+}
+
+.member-around .member-picture-around {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 55%;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.member-around .member-picture-around .member-padding {
+  padding-right: 40px;
+}
+
+.member-around .member-picture-around .de-member {
+  width: 47%;
+}
+
+.member-around .member-picture-around .de-member .member-textbox {
+  border: 3px solid white;
+  width: 100%;
+  margin-top: 200px;
+  height: 400px;
+  text-align: center;
+}
+
+.member-around .member-picture-around .de-member .member-textbox img {
+  border-radius: 50%;
+  z-index: 2;
+  margin-top: -100px;
+}
+
+.member-around .member-picture-around .de-member .member-textbox .member-role {
+  text-align: center;
+}
+
+.member-around .member-picture-around .de-member .member-textbox .member-role p {
+  color: white;
+  letter-spacing: 1px;
+}
+
+.member-around .member-picture-around .de-member .member-textbox .member-name {
+  text-align: center;
+  padding-top: 10px;
+}
+
+.member-around .member-picture-around .de-member .member-textbox .member-name p {
+  color: white;
+  letter-spacing: 1px;
+}
+
+.member-around .member-picture-around .de-member .member-textbox .member-intro-text-around {
+  text-align: left;
+  padding-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+}
+
+.member-around .member-picture-around .de-member .member-textbox .member-intro-text-around p {
+  color: white;
+}
+
+.member-around .member-picture-around .de-member .member-remove-topmargin {
+  margin-top: 140px;
+}
+
+.q-and-a {
+  background-color: #ebb94d;
+  height: 290px;
+  position: relative;
+}
+
+.q-and-a .q-and-a-circle {
+  background-color: white;
+  border-radius: 50%;
+  width: 85px;
+  height: 85px;
+  position: absolute;
+  left: 47%;
+  top: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.q-and-a .q-and-a-circle p {
+  color: #ebb94d;
+  letter-spacing: 1px;
+}
+
+.q-and-a .q-and-a-midasi {
+  text-align: center;
+  padding-top: 150px;
+}
+
+.q-and-a .q-and-a-midasi h2 {
+  color: white;
+  letter-spacing: 1px;
+  font-size: 28px;
+}
+
+.q-and-a .q-and-a-midasi h2::before {
+  position: absolute;
+  content: "";
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 50px;
+  height: 50px;
+  left: 280px;
+  border-top: 4px solid white;
+  border-left: 4px solid white;
+}
+
+.q-and-a .q-and-a-midasi h2::after {
+  position: absolute;
+  content: "";
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 50px;
+  height: 50px;
+  right: 300px;
+  border-bottom: 4px solid white;
+  border-right: 4px solid white;
+}
+
+.q-and-a-triangle {
+  width: 0;
+  height: 0;
+  border-right: 30px solid transparent;
+  border-left: 30px solid transparent;
+  border-top: 30px solid #ebb94d;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.yes-we-can-around {
+  height: 1040px;
+  background-color: white;
+}
+
+.yes-we-can-around .yes-we-can-midasi {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.yes-we-can-around .yes-we-can-midasi h3 {
+  font-size: 30px;
+  letter-spacing: 1px;
+}
+
+.yes-we-can-around .yes-we-can-midasi-two {
+  text-align: center;
+  padding-top: 5px;
+}
+
+.yes-we-can-around .yes-we-can-midasi-two h4 {
+  letter-spacing: 1px;
+}
+
+.yes-we-can-around .yes-we-can-text {
+  text-align: center;
+  padding-top: 30px;
+}
+
+.yes-we-can-around .yes-we-can-text p {
+  font-size: 15px;
+}
+
+.yes-we-can-around .yes-we-can-picture-around {
+  margin-left: auto;
+  margin-right: auto;
+  width: 55%;
+  padding-top: 30px;
+}
+
+.yes-we-can-around .yes-we-can-picture-around .yes-we-can-picture {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-bottom: 40px;
+}
+
+.yes-we-can-around .yes-we-can-picture-around .yes-we-can-picture .picture-flame {
+  border: 3px solid #ebb94d;
+  width: 240px;
+  height: 240px;
+  margin-right: 30px;
+}
+
+.yes-we-can-around .yes-we-can-picture-around .yes-we-can-picture .picture-flame img {
+  width: 240px;
+  height: 240px;
+}
+
+.yes-we-can-around .yes-we-can-picture-around .yes-we-can-picture .picture-side-text .p-border {
+  text-decoration: underline;
+}
+
+.can-learn-detail-around {
+  background-image: url(../testImg/classbg.jpg);
+  background-size: cover;
+  height: 850px;
+}
+
+.can-learn-detail-around .can-learn-detail-midasi {
+  text-align: center;
+  padding-top: 50px;
+}
+
+.can-learn-detail-around .can-learn-detail-midasi h2 {
+  color: white;
+  letter-spacing: 1px;
+  font-size: 28px;
+}
+
+.can-learn-detail-around .can-learn-detail-midasi-two {
+  text-align: center;
+  padding-top: 17px;
+}
+
+.can-learn-detail-around .can-learn-detail-midasi-two h3 {
+  color: white;
+  font-size: 17px;
+  letter-spacing: 1px;
+}
+
+.can-learn-detail-around .can-learn-detailbox-around {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 50px;
+}
+
+.can-learn-detail-around .can-learn-detailbox-around .can-learn-detailbox {
+  border: 2px solid  #016ea9;
+  border-radius: 5px;
+  height: 100%;
+}
+
+.can-learn-detail-around .can-learn-detailbox-around .can-learn-detailbox .can-learn-daimei {
+  background-color: #016ea9;
+  width: 350px;
+  height: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.can-learn-detail-around .can-learn-detailbox-around .can-learn-detailbox .can-learn-daimei p {
+  color: white;
+  font-weight: 600;
+  letter-spacing: 1px;
+  font-size: 20px;
+}
+
+.can-learn-detail-around .can-learn-detailbox-around .can-learn-detailbox .can-learn-koumoku {
+  background-color: white;
+  width: 350px;
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-bottom: 1px #EEEEEE dotted;
+}
+
+.can-learn-detail-around .can-learn-detailbox-around .can-learn-detailbox .can-learn-koumoku p {
+  font-weight: 600;
+  letter-spacing: 1px;
+  font-size: 15px;
+}
+
+.can-learn-detail-around .can-learn-detailbox-around .ca-padding {
+  margin-right: 30px;
+}
+
+.can-bluebox {
+  background-color: #016ea9;
+  height: 150px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.can-bluebox .can-bluebox-text {
+  text-align: center;
+}
+
+.can-bluebox .can-bluebox-text h3 {
+  color: white;
+  letter-spacing: 2px;
+  font-size: 20px;
+}
+
+.learn-flow-around {
+  width: 100%;
+  height: 1900px;
+}
+
+.learn-flow-around .learn-flow-midasi {
+  text-align: center;
+  padding-top: 60px;
+}
+
+.learn-flow-around .learn-flow-midasi h2 {
+  letter-spacing: 1px;
+  font-size: 27px;
+}
+
+.learn-flow-around .flow-img {
+  text-align: center;
+  padding-top: 50px;
+}
+
+.learn-flow-around .flow-detail-around {
+  padding-top: 50px;
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.learn-flow-around .flow-detail-around .flow-detailbox {
+  background-color: #FFF8DC;
+  height: 230px;
+  border-radius: 10px;
+}
+
+.learn-flow-around .flow-detail-around .flow-detailbox .creambox-detail-around {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.learn-flow-around .flow-detail-around .flow-detailbox .creambox-detail-around .creambox-detail-leftcontents {
+  text-align: center;
+  height: 150px;
+  padding: 10px;
+}
+
+.learn-flow-around .flow-detail-around .flow-detailbox .creambox-detail-around .creambox-detail-leftcontents .creambox-detail-img img {
+  width: 85px;
+  height: 100px;
+}
+
+.learn-flow-around .flow-detail-around .flow-detailbox .creambox-detail-around .creambox-detail-leftcontents .creambox-detail-img-intro {
+  padding-top: 15px;
+  width: 170px;
+}
+
+.learn-flow-around .flow-detail-around .flow-detailbox .creambox-detail-around .creambox-detail-leftcontents .creambox-detail-img-intro h3 {
+  letter-spacing: 2px;
+}
+
+.learn-flow-around .flow-detail-around .flow-detailbox .creambox-detail-around .creambox-detail-rightcontents {
+  padding-left: 40px;
+}
+
+.learn-flow-around .flow-detail-around .flow-detailbox .creambox-detail-around .creambox-detail-rightcontents p {
+  letter-spacing: 1px;
+  font-size: 15px;
+}
+
+.learn-flow-around .flow-detail-around .flow-detailbox .creambox-detail-around .creambox-detail-rightcontents .p-weight {
+  font-weight: 600;
+}
+
+.learn-flow-around .flow-detail-around .empty-box-border-one {
+  height: 40px;
+  width: 750px;
+  margin-left: auto;
+  margin-right: auto;
+  border-left: 2px solid #ebb94d;
+  border-bottom: 2px solid #ebb94d;
+}
+
+.learn-flow-around .flow-detail-around .empty-box-border-two {
+  height: 40px;
+  width: 750px;
+  margin-left: auto;
+  margin-right: auto;
+  border-right: 2px solid #ebb94d;
+}
+
+.learn-flow-around .flow-detail-around .empty-box-border-three {
+  height: 40px;
+  width: 750px;
+  margin-left: auto;
+  margin-right: auto;
+  border-right: 2px solid #ebb94d;
+  border-bottom: 2px solid #ebb94d;
+}
+
+.learn-flow-around .flow-detail-around .empty-box-border-four {
+  height: 40px;
+  width: 750px;
+  margin-left: auto;
+  margin-right: auto;
+  border-left: 2px solid #ebb94d;
+}
+
+.bankoku-img {
+  background-image: url(../testImg/bangkokbg.jpg);
+  height: 550px;
+  background-size: cover;
+}
+
+.bankoku-img .bankoku-text-around {
+  padding-top: 110px;
+  padding-left: 150px;
+}
+
+.bankoku-img .bankoku-text-around h3 {
+  font-size: 25px;
+  letter-spacing: 1px;
+  color: white;
+}
+
+.bankoku-img .bankoku-text-around .why-bankoku-text {
+  padding-top: 20px;
+}
+
+.bankoku-img .bankoku-text-around .why-bankoku-text p {
+  color: white;
+  letter-spacing: 2px;
+  font-size: 13px;
+}
+
+.bankoku-img .bankoku-text-around .bankoku-intro-list {
+  padding-top: 30px;
+  padding-left: 20px;
+}
+
+.bankoku-img .bankoku-text-around .bankoku-intro-list ul li {
+  color: white;
+  letter-spacing: 1px;
+  padding-bottom: 10px;
+  font-weight: 600;
+}
+
+.bankoku-img .bankoku-text-around .bankoku-message {
+  padding-top: 20px;
+}
+
+.bankoku-img .bankoku-text-around .bankoku-message h4 {
+  color: white;
+  letter-spacing: 2px;
+  font-size: 20px;
+}
+
+.join-present-around {
+  background-color: #ebb94d;
+  height: 650px;
+}
+
+.join-present-around .join-present-midasi {
+  text-align: center;
+  padding-top: 60px;
+}
+
+.join-present-around .join-present-midasi h2 {
+  letter-spacing: 2px;
+  font-size: 27px;
+}
+
+.join-present-around .join-present-text {
+  text-align: center;
+  padding-top: 35px;
+}
+
+.join-present-around .join-present-text p {
+  letter-spacing: 2px;
+}
+
+.join-present-around .join-present-text p span {
+  color: white;
+}
+
+.join-present-around .present-de-box {
+  border: 2px solid white;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 330px;
+  margin-top: 100px;
+  position: relative;
+}
+
+.join-present-around .present-de-box .present-border-midasi {
+  position: absolute;
+  top: 0;
+  left: 25%;
+  font-size: 27px;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  background-color: #ebb94d;
+  letter-spacing: 1px;
+}
+
+.join-present-around .present-de-box .present-de-circle-around {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.join-present-around .present-de-box .present-de-circle-around .present-de-circle {
+  background-color: white;
+  border-radius: 50%;
+  width: 250px;
+  height: 250px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.join-present-around .present-de-box .present-de-circle-around .present-de-circle .circle-inside {
+  text-align: center;
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.join-present-around .present-de-box .present-de-circle-around .present-de-circle .circle-inside .circle-present-inside-orange {
+  color: #ebb94d;
+  letter-spacing: 1px;
+  font-size: 23px;
+}
+
+.join-present-around .present-de-box .present-de-circle-around .present-de-circle .circle-inside .circle-present-inside-black {
+  padding-top: 10px;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+.sp-de {
+  background-image: url(../testImg/specialdetail.jpg);
+  height: 540px;
+  background-size: cover;
+}
+
+.sp-de .sp-de-textaround {
+  text-align: center;
+  color: white;
+}
+
+.sp-de .sp-de-textaround h3 {
+  font-size: 27px;
+  letter-spacing: 1px;
+  padding-top: 70px;
+}
+
+.sp-de .sp-de-textaround h4 {
+  letter-spacing: 1px;
+  font-size: 20px;
+  padding-top: 40px;
+}
+
+.sp-de .sp-de-textaround .sp-de-htwo {
+  position: relative;
+}
+
+.sp-de .sp-de-textaround .sp-de-htwo h2 {
+  padding-top: 80px;
+  letter-spacing: 1px;
+  font-size: 28px;
+}
+
+.sp-de .sp-de-textaround .sp-de-htwo h2::before {
+  position: absolute;
+  /*before(after)を可視化するためのおまじない*/
+  content: "";
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  /*位置は左上を指定*/
+  top: 60px;
+  left: 280px;
+  /*50px × 50px の四角形を作成 */
+  width: 50px;
+  height: 50px;
+  /*topとleftの辺だけを可視化する*/
+  border-top: 4px solid white;
+  border-left: 4px solid white;
+}
+
+.sp-de .sp-de-textaround .sp-de-htwo h2::after {
+  position: absolute;
+  content: "";
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  /*位置は右下を指定*/
+  top: 90px;
+  right: 300px;
+  /*50px × 50pxの四角形を作成*/
+  width: 50px;
+  height: 50px;
+  /*bottomとrightのへんだけを可視化する*/
+  border-bottom: 4px solid white;
+  border-right: 4px solid white;
+}
+
+.creater-mesage-div {
+  height: 630px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.creater-mesage-div .creater-mesage-around {
+  text-align: center;
+}
+
+.creater-mesage-div .creater-mesage-around h2 {
+  letter-spacing: 1px;
+  font-size: 29px;
+}
+
+.creater-mesage-div .creater-mesage-around h3 {
+  letter-spacing: 1px;
+  padding-top: 40px;
+}
+
+.creater-mesage-div .creater-mesage-around .picture-and-message-intro {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 40px;
+  text-align: left;
+  width: 65%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.creater-mesage-div .creater-mesage-around .picture-and-message-intro img {
+  width: 200px;
+  height: 150px;
+  padding-right: 30px;
+}
+
+.creater-mesage-div .creater-mesage-around .picture-and-message-intro p {
+  letter-spacing: 1px;
+}
+
+.creater-mesage-div .creater-mesage-around .picture-and-message-intro .picture-and-message-intro-right {
+  padding-left: 30px;
+}
+
+.creater-mesage-div .creater-mesage-around .picture-and-message-intro .picture-and-message-intro-right ul {
+  padding-left: 20px;
+}
+
+.get-document-around {
+  background-color: #ebb94d;
+  height: 730px;
+}
+
+.get-document-around .get-document-midasi {
+  text-align: center;
+  padding-top: 60px;
+}
+
+.get-document-around .get-document-midasi h2 {
+  letter-spacing: 2px;
+  font-size: 27px;
+}
+
+.get-document-around p {
+  text-align: center;
+  letter-spacing: 1px;
+  font-size: 18px;
+  padding-top: 20px;
+}
+
+.get-document-around .input-form-around {
+  width: 55%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.get-document-around .input-form-around .input-hoge {
+  width: 100%;
+  height: 35px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid white;
+  margin-bottom: 30px;
+}
+
+.get-document-around .input-form-around .textarea-hoge {
+  width: 100%;
+  height: 100px;
+  border-radius: 5px;
+  border: 1px solid white;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.get-document-around .input-form-around .sousin-btn {
+  background-color: #F08080;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 730px;
+  height: 55px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.get-document-around .input-form-around .sousin-btn .sousin-text {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 25px;
+  letter-spacing: 20px;
+}
+
+.some-question-div {
+  width: 100%;
+  padding-bottom: 70px;
+}
+
+.some-question-div .question-div {
+  text-align: center;
+  padding-top: 60px;
+}
+
+.some-question-div .question-div h2 {
+  letter-spacing: 2px;
+  font-size: 28px;
+}
+
+.some-question-div .question-box-around {
+  padding-top: 40px;
+}
+
+.some-question-div .question-box-around .question-and-hiddenanswer {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 5px;
+}
+
+.some-question-div .question-box-around .question-and-hiddenanswer .question-box {
+  width: 100%;
+  height: 70px;
+  border-radius: 2px;
+  border: 1px solid #DDDDDD;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.some-question-div .question-box-around .question-and-hiddenanswer .question-box .question-box-textdiv {
+  width: 95%;
+  background-color: white;
+}
+
+.some-question-div .question-box-around .question-and-hiddenanswer .question-box .question-box-textdiv input {
+  display: none;
+}
+
+.some-question-div .question-box-around .question-and-hiddenanswer .question-box .question-box-textdiv label {
+  font-size: 22px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  cursor: pointer;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  display: block;
+}
+
+.some-question-div .question-box-around .question-and-hiddenanswer .question-box .question-box-textdiv label .fa-question-circle {
+  color: #0063dc;
+}
+
+.some-question-div .question-box-around .question-and-hiddenanswer .question-box .question-box-textdiv label:hover {
+  text-decoration: underline;
+}
+
+.some-question-div .question-box-around .question-and-hiddenanswer .question-box .question-box-textdiv label::after {
+  content: '\f078';
+  font-family: 'Font Awesome 5 Free';
+  float: right;
+  line-height: 33px;
+  color: #DDDDDD;
+}
+
+.some-question-div .question-box-around .question-and-hiddenanswer .acchow {
+  padding: 20px 20px 30px 20px;
+  -webkit-box-shadow: 0px 10px 10px -15px rgba(0, 0, 0, 0.5);
+          box-shadow: 0px 10px 10px -15px rgba(0, 0, 0, 0.5);
+  display: none;
+}
+
+.some-question-div .question-box-around .question-and-hiddenanswer .acchow p {
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.some-question-div .question-box-around .question-and-hiddenanswer .acchow-two {
+  padding: 20px 20px 30px 20px;
+  -webkit-box-shadow: 0px 10px 10px -15px rgba(0, 0, 0, 0.5);
+          box-shadow: 0px 10px 10px -15px rgba(0, 0, 0, 0.5);
+  display: none;
+}
+
+.some-question-div .question-box-around .question-and-hiddenanswer .acchow-two p {
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.some-question-div .question-box-around .question-and-hiddenanswer .acchow-three {
+  padding: 20px 20px 30px 20px;
+  -webkit-box-shadow: 0px 10px 10px -15px rgba(0, 0, 0, 0.5);
+          box-shadow: 0px 10px 10px -15px rgba(0, 0, 0, 0.5);
+  display: none;
+}
+
+.some-question-div .question-box-around .question-and-hiddenanswer .acchow-three p {
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.some-question-div .question-box-around .question-and-hiddenanswer .acchow-four {
+  padding: 20px 20px 30px 20px;
+  -webkit-box-shadow: 0px 10px 10px -15px rgba(0, 0, 0, 0.5);
+          box-shadow: 0px 10px 10px -15px rgba(0, 0, 0, 0.5);
+  display: none;
+}
+
+.some-question-div .question-box-around .question-and-hiddenanswer .acchow-four p {
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.some-question-div .question-box-around .question-and-hiddenanswer .acchow-five {
+  padding: 20px 20px 30px 20px;
+  -webkit-box-shadow: 0px 10px 10px -15px rgba(0, 0, 0, 0.5);
+          box-shadow: 0px 10px 10px -15px rgba(0, 0, 0, 0.5);
+  display: none;
+}
+
+.some-question-div .question-box-around .question-and-hiddenanswer .acchow-five p {
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.some-question-div .question-box-around .question-and-hiddenanswer .acchow-six {
+  padding: 20px 20px 30px 20px;
+  -webkit-box-shadow: 0px 10px 10px -15px rgba(0, 0, 0, 0.5);
+          box-shadow: 0px 10px 10px -15px rgba(0, 0, 0, 0.5);
+  display: none;
+}
+
+.some-question-div .question-box-around .question-and-hiddenanswer .acchow-six p {
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.some-question-div .question-box-around .question-and-hiddenanswer .acchow-seven {
+  padding: 20px 20px 30px 20px;
+  -webkit-box-shadow: 0px 10px 10px -15px rgba(0, 0, 0, 0.5);
+          box-shadow: 0px 10px 10px -15px rgba(0, 0, 0, 0.5);
+  display: none;
+}
+
+.some-question-div .question-box-around .question-and-hiddenanswer .acchow-seven p {
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.some-question-div .question-box-around .question-and-hiddenanswer .acchow-eight {
+  padding: 20px 20px 30px 20px;
+  -webkit-box-shadow: 0px 10px 10px -15px rgba(0, 0, 0, 0.5);
+          box-shadow: 0px 10px 10px -15px rgba(0, 0, 0, 0.5);
+  display: none;
+}
+
+.some-question-div .question-box-around .question-and-hiddenanswer .acchow-eight p {
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.some-question-div .question-box-around .question-and-hiddenanswer .acchow-nine {
+  padding: 20px 20px 30px 20px;
+  -webkit-box-shadow: 0px 10px 10px -15px rgba(0, 0, 0, 0.5);
+          box-shadow: 0px 10px 10px -15px rgba(0, 0, 0, 0.5);
+  display: none;
+}
+
+.some-question-div .question-box-around .question-and-hiddenanswer .acchow-nine p {
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.some-question-div .question-box-around .question-and-hiddenanswer .acchow-ten {
+  padding: 20px 20px 30px 20px;
+  -webkit-box-shadow: 0px 10px 10px -15px rgba(0, 0, 0, 0.5);
+          box-shadow: 0px 10px 10px -15px rgba(0, 0, 0, 0.5);
+  display: none;
+}
+
+.some-question-div .question-box-around .question-and-hiddenanswer .acchow-ten p {
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.some-question-div .question-box-around .question-and-hiddenanswer .acchow-eleven {
+  padding: 20px 20px 30px 20px;
+  -webkit-box-shadow: 0px 10px 10px -15px rgba(0, 0, 0, 0.5);
+          box-shadow: 0px 10px 10px -15px rgba(0, 0, 0, 0.5);
+  display: none;
+}
+
+.some-question-div .question-box-around .question-and-hiddenanswer .acchow-eleven p {
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.some-question-div .question-box-around .question-and-hiddenanswer .acchow-twelve {
+  padding: 20px 20px 30px 20px;
+  -webkit-box-shadow: 0px 10px 10px -15px rgba(0, 0, 0, 0.5);
+          box-shadow: 0px 10px 10px -15px rgba(0, 0, 0, 0.5);
+  display: none;
+}
+
+.some-question-div .question-box-around .question-and-hiddenanswer .acchow-twelve p {
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.some-question-div .question-box-around .question-and-hiddenanswer .acchow-thirteen {
+  padding: 20px 20px 30px 20px;
+  -webkit-box-shadow: 0px 10px 10px -15px rgba(0, 0, 0, 0.5);
+          box-shadow: 0px 10px 10px -15px rgba(0, 0, 0, 0.5);
+  display: none;
+}
+
+.some-question-div .question-box-around .question-and-hiddenanswer .acchow-thirteen p {
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.some-question-div .question-box-around .question-and-hiddenanswer .acchow-fourteen {
+  padding: 20px 20px 30px 20px;
+  -webkit-box-shadow: 0px 10px 10px -15px rgba(0, 0, 0, 0.5);
+          box-shadow: 0px 10px 10px -15px rgba(0, 0, 0, 0.5);
+  display: none;
+}
+
+.some-question-div .question-box-around .question-and-hiddenanswer .acchow-fourteen p {
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.some-question-div .question-box-around .question-and-hiddenanswer .acchow-fifthteen {
+  padding: 20px 20px 30px 20px;
+  -webkit-box-shadow: 0px 10px 10px -15px rgba(0, 0, 0, 0.5);
+          box-shadow: 0px 10px 10px -15px rgba(0, 0, 0, 0.5);
+  display: none;
+}
+
+.some-question-div .question-box-around .question-and-hiddenanswer .acchow-fifthteen p {
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+footer {
+  height: 170px;
+  background-color: #EEEEEE;
+}
+
+footer .footer-top-text-div {
+  text-align: center;
+  padding-top: 40px;
+}
+
+footer .footer-top-text-div p {
+  font-size: 10px;
+  letter-spacing: 2px;
+}
+
+footer .footer-top-text-div p span {
+  color: #016ea9;
+}
+
+footer .linkbox {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+footer .linkbox .twitter {
+  background-color: #00aced;
+  width: 80px;
+  height: 20px;
+  border-radius: 3px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer .linkbox .twitter a {
+  color: white;
+  text-decoration: none;
+  font-size: 13px;
+}
+
+footer .linkbox .twitter .fa-twitter {
+  padding-right: 2px;
+}
+
+footer .linkbox .iine {
+  background-color: #0063dc;
+  width: 100px;
+  height: 20px;
+  border-radius: 3px;
+  margin-left: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer .linkbox .iine a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 13px;
+}
+
+footer .linkbox .iine .fa-thumbs-up {
+  padding-right: 5px;
+}
+
+footer .linkbox .share {
+  background-color: #0063dc;
+  width: 60px;
+  height: 20px;
+  border-radius: 3px;
+  margin-left: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer .linkbox .share a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 13px;
+}
+
+footer .footer-bottom-text-div {
+  text-align: center;
+  padding-top: 30px;
+}
+
+footer .footer-bottom-text-div p {
+  font-size: 10px;
+  letter-spacing: 2px;
+}
+
+footer .footer-bottom-text-div p span {
+  color: #016ea9;
+}
+
+#top-return {
+  width: 70px;
+  height: 70px;
+  background-color: #EEEEEE;
+  position: relative;
+  position: fixed;
+  bottom: 70px;
+  right: 50px;
+  display: none;
+}
+
+#top-return a {
+  cursor: pointer;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
+#top-return a span {
+  line-height: 70px;
+  color: black;
+  font-size: 40px;
+}
+/*# sourceMappingURL=lp.css.map */
